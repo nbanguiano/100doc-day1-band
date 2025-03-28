@@ -102,7 +102,7 @@ def home():
         </style>
     </head>
     <body>
-        <h1>> Band Name Generator v1.0</h1>
+        <h1>> Band Name Generator v1.0.0</h1>
         <div class="terminal">
             <form method="POST">
                 <div class="prompt">
