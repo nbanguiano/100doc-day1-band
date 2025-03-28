@@ -17,6 +17,9 @@
     </div>
 
     <script>
+        // Get base path from Flask
+        const BASE_PATH = '{{ base_path }}';
+        
         const terminalInput = document.getElementById('terminal-input');
         const output = document.getElementById('output');
         let currentStep = 1;
@@ -45,7 +48,7 @@
             formData.append('input2', inputs.input2);
             
             try {
-                const response = await fetch('/', {
+                const response = await fetch(`${BASE_PATH}/`, {
                     method: 'POST',
                     body: formData,
                     headers: {
