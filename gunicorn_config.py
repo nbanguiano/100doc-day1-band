@@ -1,4 +1,4 @@
-bind = "127.0.0.1:8080"  # Match the port in Nginx configuration
+bind = "unix:/tmp/day1-band.sock"  # Unix socket instead of TCP port
 workers = 3
 timeout = 120
 worker_class = 'sync'
