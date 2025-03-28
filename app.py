@@ -30,5 +30,5 @@ def serve_static(filename):
 if __name__ == '__main__':
     print(f"Static folder is at: {app.static_folder}")
     print(f"Static URL path is: {app.static_url_path}")
-    app.run(debug=True, host='127.0.0.1', port=5000)
-    # app.run(debug=True)
+    # app.run(debug=True, host='127.0.0.1', port=5000)
+    app.run(debug=True)
