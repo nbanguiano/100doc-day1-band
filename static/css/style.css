@@ -14,7 +14,7 @@ body {
 .terminal {
     background-color: #121212;
     width: 100%;
-    max-width: 950;
+    max-width: 950px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
